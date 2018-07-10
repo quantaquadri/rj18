@@ -1264,3 +1264,122 @@ figure {
   z-index: 9999;
   background: url(../images/hourglass.svg) center no-repeat #222222;
 }
+
+.parent-edge {
+  display: flex;
+  justify-content: center;
+}
+/* .parent-edge .edge-label {
+  background-color: #000000;
+  color: #ffffff;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: -35px;
+  z-index: 1;
+} */
+
+.registry {
+  position: relative;
+  padding: 50px 0px;
+  background-color: #f6f3e6; }
+.registry .registry-header {
+  text-align: center; }
+.registry .registry-header h2 {
+  text-transform: uppercase; }
+.registry .all-products {
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  width: 1245px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 40px; }
+.registry .products {
+  width: 2200px;
+  position: absolute; }
+.registry .move-product {
+  position: absolute; }
+.registry .single-product {
+  position: relative;
+  padding: 30px 0px; }
+.registry .single-product .inner-signle-product {
+  margin: 0px 10px;
+  background: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.18); }
+.registry .single-product .inner-signle-product img {
+  width: 100%; }
+.registry .single-product .inner-signle-product .product-detail {
+  padding: 15px; }
+.registry .single-product .inner-signle-product .product-detail p {
+  font-weight: bold;
+  font-size: 16px; }
+.registry .single-product .inner-signle-product .product-detail .product-below {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(230, 230, 230, 0.7);
+  padding-top: 15px;
+  align-items: center; }
+.registry .single-product .inner-signle-product .product-detail .product-below p {
+  font-weight: initial;
+  font-size: initial;
+  color: #ffffff; }
+.registry .single-product .inner-signle-product .product-detail .product-below p:last-child {
+  border: 1px solid;
+  padding: 6px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-color: #fff56d; }
+.registry .more-btn {
+  width: 220px;
+  margin: 0 auto; }
+.registry .more-btn p {
+  background: #ef806d;
+  padding: 13px;
+  border-radius: 50px;
+  color: #FFFFFF;
+  font-family: 'open-sans-bold' !important;
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: center; }
+.registry .dir-btn {
+  position: absolute;
+  top: calc(100%/2); }
+.registry .left-btn {
+  left: 20px; }
+.registry .right-btn {
+  right: 20px; }
+
+  #buy-button {
+    margin-top: 20px;
+    background: #CFAA2B;
+    padding: 13px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-family: 'open-sans-bold' !important;
+    font-size: 18px;
+    text-transform: capitalize;
+    width: 180px;
+    border: 0px;
+}
+
+.owl-prev {
+  position: absolute;
+  top: 40%;
+  left: -50px;
+}
+
+.owl-next {
+  position: absolute;
+  top: 40%;
+  right: -50px;
+}

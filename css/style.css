@@ -372,11 +372,11 @@ figure {
 }
 
 #fh5co-logo a {
-  color: #F9508c;
+  color: #ef806d;
 }
 
 #fh5co-logo a:hover, #fh5co-logo a:focus {
-  color: #F9508c !important;
+  color: #ef806d !important;
 }
 
 #fh5co-menu-wrap {
@@ -560,7 +560,7 @@ figure {
   font-size: 50px;
   font-weight: 300;
   position: relative;
-  color: #F9508c;
+  color: #ef806d;
 }
 
 .heading-section p {
@@ -588,7 +588,7 @@ figure {
 #fh5co-couple .amp-center {
   font-size: 60px;
   margin-top: 100%;
-  color: #f9508c;
+  color: #ef806d;
 }
 
 @media screen and (max-width: 768px) {
@@ -598,7 +598,15 @@ figure {
 }
 
 #fh5co-countdown {
-  background: #F9508c;
+  background: #ef806d;
+  /* margin-top: 50px; */
+}
+
+#fh5co-countdown .couple-wrap {
+  width: 100%;
+  float: left;
+  /* background: #ef806d; */
+  /* padding: 30px 30px; */
 }
 
 #fh5co-countdown .countdown {
@@ -622,7 +630,7 @@ figure {
 .couple-wrap {
   width: 100%;
   float: left;
-  background: #F6FAF7;
+  /* background: #F6FAF7; */
 }
 
 .couple-desc {
@@ -725,7 +733,7 @@ figure {
 #fh5co-started .btn-block {
   height: 54px;
   border: none !important;
-  background: #F69D9D;
+  background: #ef806d;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -891,7 +899,7 @@ figure {
 }
 
 #footer {
-  background: #F9508c;
+  background:#ef806d;
   padding: 60px 0 40px;
 }
 

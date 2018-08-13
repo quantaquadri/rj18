@@ -167,6 +167,7 @@ figure {
 .fh5co-cover {
   background-size: cover;
   position: relative;
+  background-position: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -587,7 +588,8 @@ figure {
 
 #fh5co-couple .amp-center {
   font-size: 60px;
-  margin-top: 100%;
+  margin-top: 20%;
+  margin-bottom: 20%;
   color: #ef806d;
 }
 
@@ -1382,4 +1384,10 @@ figure {
   position: absolute;
   top: 40%;
   right: -50px;
+}
+
+img.center {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
